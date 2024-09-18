@@ -4,12 +4,44 @@ body{
     background-color: #fff;
 }
 
+/* reset */
+
 ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+/* common */
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -23,6 +55,7 @@ a {
 }
 
 .header-logo {
+    padding: 24px 0;
     margin-right: 76px;
 }
 
@@ -30,15 +63,15 @@ a {
     color: #2e2f42;
 }
 
-.footer-logo {
-    margin-bottom: 16px;
-}
-
-.footer-logo .logo-part{
-    color: #f4f4fd;
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .nav-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -46,7 +79,21 @@ a {
     color: #2e2f42;
 }
 
+.contacts {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
 .contacts-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -55,16 +102,14 @@ a {
     color: #434455;
 }
 
-.contacts {
-    font-style: normal;
-}
-
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
     color: #404bbf;
 }
+
+/* main */
 
 .title {
     font-weight: 700;
@@ -129,8 +174,18 @@ a {
     background-color: #ffffff;
 }
 
+/* footer */
+
 .page-footer {
     background-color: #2e2f42;
+}
+
+.footer-logo {
+    margin-bottom: 16px;
+}
+
+.footer-logo .logo-part{
+    color: #f4f4fd;
 }
 
 .description {
