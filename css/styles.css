@@ -140,7 +140,7 @@ img {
 }
 
 /* main */
-
+/* головна сторінка */
 .title {
   font-weight: 700;
   font-size: 56px;
@@ -150,7 +150,7 @@ img {
   color: #fff;
 }
 
-.first-section {
+.hero-image {
   background-color: #2e2f42;
 }
 
@@ -168,6 +168,8 @@ img {
 .page-button:focus {
   background-color: #404bbf;
 }
+
+/* перша-третя секції */
 
 .subtext {
   font-weight: 500;
@@ -204,6 +206,7 @@ img {
   background-color: #ffffff;
 }
 
+/* перша-третя секції */
 /* footer */
 
 .page-footer {
