@@ -193,6 +193,7 @@ img {
   color: #2e2f42;
   background-color: #ffffff;
   margin-bottom: 8px;
+  width: calc((100%-72px) / 4);
 }
 
 .descriptio-subtext {
@@ -201,7 +202,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  width: calc((100%-72px) / 4);
 }
 
 .heading {
@@ -220,6 +220,9 @@ img {
 
 .list-item {
   background-color: #ffffff;
+}
+
+.ul-list {
   display: flex;
   gap: 24px;
 }
