@@ -221,10 +221,10 @@ img {
 
 .list-item {
   background-color: #ffffff;
+  width: calc((100%-72px) / 4);
 }
 
 .ul-list {
-  width: calc((100%-72px) / 4);
   display: flex;
   gap: 24px;
 }
