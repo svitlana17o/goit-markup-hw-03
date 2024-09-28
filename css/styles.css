@@ -183,7 +183,7 @@ img {
   background-color: #404bbf;
 }
 
-/* перша-третя секції */
+/* друга-четверта секції */
 
 .subtext {
   font-weight: 500;
@@ -192,6 +192,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   background-color: #ffffff;
+  margin-bottom: 8px;
 }
 
 .descriptio-subtext {
@@ -200,6 +201,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  width: calc((100%-72px) / 4);
 }
 
 .heading {
@@ -218,9 +220,14 @@ img {
 
 .list-item {
   background-color: #ffffff;
+  display: flex;
+  gap: 24px;
 }
 
-/* перша-третя секції */
+.second-section {
+  padding: 120px 0;
+}
+
 /* footer */
 
 .page-footer {
