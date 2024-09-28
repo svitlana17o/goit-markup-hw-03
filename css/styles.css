@@ -217,6 +217,7 @@ img {
 
 .the-third-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .list-item {
@@ -230,6 +231,10 @@ img {
 
 .second-section {
   padding: 120px 0;
+}
+
+.name-position {
+  padding: 32px 0;
 }
 
 /* footer */
