@@ -193,7 +193,6 @@ img {
   color: #2e2f42;
   background-color: #ffffff;
   margin-bottom: 8px;
-  width: calc((100%-72px) / 4);
 }
 
 .descriptio-subtext {
@@ -225,6 +224,7 @@ img {
 }
 
 .ul-list {
+  width: calc((100%-72px) / 4);
   display: flex;
   gap: 24px;
 }
